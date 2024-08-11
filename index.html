@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d6e7b785fe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>BMI calculator</h1>
+    <i class="fa-solid fa-calculator" style="color: #ebeff4;"></i>
+  </header>
+  <main>
+    <div class="BMI">
+      <h2>What is body mass index (BMI)</h2>
+      <p>
+       Body mass index (BMI) is a medical screening tool that measures the ratio of your height to <br>
+       your weight to estimate the amount of body fat you have. Healthcare providers calculate BMI <br>
+       by using weight in kilograms (kg) divided by the square of height in meters (m2).
+      </p>
+      <p>
+        In most people, BMI correlates to body fat — the higher the number, the more body fat you may <br> 
+        have — but it’s not accurate in some cases. BMI alone does not diagnose health. Healthcare  <br>
+        providers use BMI and other tools and tests to assess someone’s health status and risks.
+      </p>
+    </div>
+    <div class="BMI-calculator">
+       <h2>calculate your BMI</h2>
+       <div class="input-parameters">
+          <div>
+            <label for="Height">Height</label>
+            <input class="height" type="number" placeholder="Centimetres">
+          </div>
+          <div id="weight">
+             <label for="Weight">Weight</label>
+             <input class="weight" type="number" placeholder="Kilograms">
+          </div>
+       </div>
+       <div class="buttons">
+         <button class="calculatebutton" onclick="calculatebmi()">CALCULATE</button>
+         <button class="resetbutton" onclick="reset()">RESET</button>
+       </div>
+       <p class="result">Result: </p>
+    </div>
+  </main>
+    
+
+    
+</body>
+</html>

@@ -1,0 +1,196 @@
+body {
+  margin: -22px 0 0 0 ;
+  font-family: 'poppins' ;
+  background-color: rgb(24, 24, 24);
+}
+
+header{
+    background-color: rgb(50, 50, 93);
+    color: white;
+    padding: 20px 0 20px 200px ;
+    margin: 0;
+}
+
+header h1 {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.fa-calculator {
+    font-size: 3rem;
+}
+
+.BMI {
+   padding: 10px 200px;
+   font-size: 15px;
+   color: white;
+}
+
+.BMI p {
+    line-height: 35px;
+    color: white;
+}
+
+.BMI-calculator {
+    margin: 0 0 50px 200px;
+    background-color: rgb(46, 46, 46);
+    border-radius: 20px;
+    width: 40%;
+    margin-left: 200px ;
+
+
+
+
+}
+
+.BMI-calculator h2 {
+    color: rgb(45, 107, 103);
+    font-weight: 600;
+    font-size: 28px;
+    margin: 0;
+    padding: 10px 0 10px 30px;
+}
+
+.input-parameters {
+    margin: 0;
+    padding: 40px 0 30px 30px ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 -0.1px  #666666;
+}
+
+.input-parameters div {
+    display: flex;
+    gap: 100px;
+}
+
+#weight {
+    gap: 95px;
+}
+
+input {
+   height: 30px; 
+   width: 220px;
+   font-size: 15px;
+   border-style: none;
+   border-radius: 5px;
+}
+
+label {
+  color: rgb(45, 107, 103);  
+  font-weight: 600;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    padding-left: 180px;
+    padding-bottom: 50px;
+}
+
+.calculatebutton {
+    height: 32px;
+    width: 180px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(88, 194, 187);
+    color: white;
+    opacity: 0.6;
+}
+
+.resetbutton {
+    height: 32px;
+    width: 180px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: rgb(88, 194, 187);
+    color: rgb(88, 194, 187);
+    opacity: 0.7;
+}
+
+.result {
+    margin: 0;
+    background-color: rgb(45, 107, 103);
+    height: 120px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+@media (max-width: 680px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: ;
+    }
+
+    header {
+        width: 100%;
+        padding: 15px 60px ;
+        margin: 0;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    .fa-calculator {
+        font-size: 2.5rem;
+    }
+
+    .BMI {
+        padding: 10px 20px 0 60px;
+        font-size: 12px;
+    }
+
+    .BMI-calculator {
+        margin:0 20px 0 60px;
+        border-radius: 20px;
+        width: 85%;
+    }
+
+    .input-parameters {
+        margin: 0 ;
+        padding: 30px ;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        box-shadow: 1px 2px 2px 2px rgb(0 0 0 0.2) ;
+    }
+
+    .input-parameters div {
+        display: flex;
+        gap: 40px;
+    }
+    
+    #weight {
+        gap: 35px;
+    }
+
+    .buttons {
+        display: flex;
+        gap: 20px;
+        padding-left: 130px;
+        padding-bottom: 50px;
+    }
+
+    .calculatebutton {
+        height: 32px;
+        width: 150px;
+    }
+
+    .resetbutton {
+        height: 32px;
+        width: 150px;
+    }
+
+    input {
+        width: 190px;
+    }
+
+
+
+    
+}
+
